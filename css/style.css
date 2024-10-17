@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-style: none;
+    outline-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1216px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1216PX;
+    justify-content: space-between;  
+    align-items: center;
+    margin: 20px;
+}
+
+.container nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+.container nav ul li a {
+    color: black;
+} 
+
+.busca {
+ display: flex; 
+
+}
+
+.busca input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*------*/
+
+.product {
+    width: 1216px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    gap: 50px;
+}
+
+.product-price {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.product-title {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+
+.product-price-value {
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: rgb(47, 47, 197);
+}
+
+.product-btn {
+    width: 190px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(47, 47, 197);
+    border-radius: 5px;
+}
+
+.product-price-details {
+    color: #dbd5d5;
+    font-size: 14px;
+    flex-grow: 1; 
+}
+
+.information {
+    width: 1216px;
+    padding-top: 168px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.information-text_description {
+    color: rgb(37, 37, 199);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.information-text_title {
+    width: 580px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 26px;
+    font-family: 'Inter', sans-serif;
+}
+
+.information-feature {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.information-feature_section {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.banner {
+    border-radius: 10px;
+    align-items: center;
+    padding: 96px;
+    background-color: rgb(37, 37, 199);
+    width: 1216px;
+    margin-bottom: 90px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    width: 558px;
+    gap: 40px;
+}
+
+.banner-text_title {
+    text-align: start;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: rgb(243, 236, 236);
+    width: 568px;
+    
+}
+
+.banner-text_logo {
+    width: 30px;
+}
+
+.banner-text_description {
+ width: 400px;
+ text-align: justify;
+ font-size: 20px;
+ color: rgb(243, 236, 236);   
+}
+
+footer{
+    background-color: rgb(44, 44, 44);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    width: 1216px;
+    padding: 25px;
+}
+  
+.footer-links {
+    display: flex;
+    gap: 48px;
+}
+  
+.footer-links li {
+    cursor: pointer;
+}
+  
+.footer-links li a {
+    color: aliceblue;
+    transition: all 0.3s ease 0s;
+}
+  
+.footer-links li a:hover {
+    color: rgb(37, 37, 199);
+}
+
+.footer-container .footer-links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
